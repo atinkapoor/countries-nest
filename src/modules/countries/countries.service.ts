@@ -1,7 +1,7 @@
 import { HttpService } from '@nestjs/axios';
 import { Injectable } from '@nestjs/common';
 import { map, Observable } from 'rxjs';
-import { RedisCacheService } from 'src/redis-cache/redis-cache.service';
+import { RedisCacheService } from '../../redis-cache/redis-cache.service';
 import { CreateCountryDto } from './dto/create-country.dto';
 import { UpdateCountryDto } from './dto/update-country.dto';
 import { ICountry } from './interfaces/country.interface';
